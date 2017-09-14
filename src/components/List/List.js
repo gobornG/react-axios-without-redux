@@ -26,7 +26,7 @@ class List extends Component {
         {
             <div id="List__namesContainer">
               { CustomerComponents }
-              <CreateCustomer />
+              <CreateCustomer startNewCustomer={startNewCustomer}/>
             </div>
         }
       </div>
